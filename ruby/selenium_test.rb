@@ -8,6 +8,10 @@ selenium_browser = ENV['SELENIUM_BROWSER']
 selenium_browser_version = ENV['SELENIUM_VERSION']
 selenium_browser_url = ENV['SELENIUM_BROWSER_URL']
 
+if(!selenium_browser_url)
+  selenium_browser_url = "http://www.google.com"
+end
+
 bs_username = ENV['BS_USERNAME']
 bs_key = ENV['BS_AUTHKEY']
 bs_project = ENV['BS_AUTOMATE_PROJECT']
