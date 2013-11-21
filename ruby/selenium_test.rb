@@ -8,7 +8,7 @@ selenium_browser = ENV['SELENIUM_BROWSER']
 selenium_browser_version = ENV['SELENIUM_VERSION']
 selenium_browser_url = ENV['SELENIUM_BROWSER_URL']
 
-if(!selenium_browser_url)
+if(!selenium_browser_url || selenium_browser_url.empty?)
   selenium_browser_url = "http://www.google.com"
 end
 
@@ -18,6 +18,7 @@ bs_project = ENV['BS_AUTOMATE_PROJECT']
 bs_build = ENV['BS_AUTOMATE_BUILD']
 
 url = "http://" + selenium_host + ":" + selenium_port + "/wd/hub"
+puts "Testing selenium with hub " + url
 
 capabilities = Selenium::WebDriver::Remote::Capabilities.new
 capabilities['platform'] = selenium_platform
