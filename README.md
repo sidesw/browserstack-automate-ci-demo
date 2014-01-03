@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sidesw/automate-ruby-samples.png?branch=master)](https://travis-ci.org/sidesw/automate-ruby-samples)
+
 browserstack-automate-ci-demo
 =============================
 
