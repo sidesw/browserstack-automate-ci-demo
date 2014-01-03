@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/sidesw/automate-ruby-samples.png?branch=master)](https://travis-ci.org/sidesw/automate-ruby-samples)
+[![Build Status](https://travis-ci.org/sidesw/browserstack-automate-ci-demo.png?branch=master)](https://travis-ci.org/sidesw/browserstack-automate-ci-demo)
 
 browserstack-automate-ci-demo
 =============================
